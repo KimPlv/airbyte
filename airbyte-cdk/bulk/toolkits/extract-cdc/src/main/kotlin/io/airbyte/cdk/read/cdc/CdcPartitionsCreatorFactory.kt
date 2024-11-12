@@ -9,6 +9,7 @@ import io.airbyte.cdk.read.FeedBootstrap
 import io.airbyte.cdk.read.GlobalFeedBootstrap
 import io.airbyte.cdk.read.PartitionsCreator
 import io.airbyte.cdk.read.PartitionsCreatorFactory
+import io.github.oshai.kotlinlogging.KotlinLogging
 import io.micronaut.core.annotation.Order
 import jakarta.inject.Singleton
 import java.util.concurrent.atomic.AtomicReference

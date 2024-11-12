@@ -8,6 +8,7 @@ import io.airbyte.cdk.jdbc.JsonStringFieldType
 import io.airbyte.cdk.jdbc.NCharacterStreamFieldType
 import io.airbyte.cdk.jdbc.NClobFieldType
 import io.airbyte.protocol.models.v0.SyncMode
+import io.github.oshai.kotlinlogging.KotlinLogging
 
 /** [JdbcAirbyteStreamFactory] implements [createGlobal] and [createNonGlobal] for JDBC sourcesx. */
 interface JdbcAirbyteStreamFactory : AirbyteStreamFactory, MetaFieldDecorator {

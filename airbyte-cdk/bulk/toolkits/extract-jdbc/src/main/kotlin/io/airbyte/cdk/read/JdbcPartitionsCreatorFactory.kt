@@ -5,6 +5,7 @@
 package io.airbyte.cdk.read
 
 import io.airbyte.cdk.jdbc.JDBC_PROPERTY_PREFIX
+import io.github.oshai.kotlinlogging.KotlinLogging
 import io.micronaut.context.annotation.Requires
 import jakarta.inject.Singleton
 
