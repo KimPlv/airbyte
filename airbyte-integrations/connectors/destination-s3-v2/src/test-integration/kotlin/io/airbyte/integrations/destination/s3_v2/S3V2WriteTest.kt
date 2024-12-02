@@ -168,3 +168,13 @@ class S3V2WriteTestParquetSnappy :
         allTypesBehavior = StronglyTyped(integerCanBeLarge = false),
         nullEqualsUnset = true,
     )
+
+class S3V2WriteTestEndpointURL :
+    S3V2WriteTest(
+        S3V2TestUtils.ENDPOINT_URL_CONFIG_PATH,
+        stringifySchemalessObjects = false,
+        promoteUnionToObject = false,
+        preserveUndeclaredFields = false,
+        allTypesBehavior = Untyped,
+        nullEqualsUnset = true,
+    )
